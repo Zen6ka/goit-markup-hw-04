@@ -25,6 +25,7 @@ aside {
     --studio-logo-header:#2e2f42;
     --filter-buttons-border:#E7E9FC;
     --page-header-border: #e7e9fc;
+    --icon-hover:#31D0AA; 
     
   
 }
@@ -163,9 +164,21 @@ justify-content:space-between;}
 
            
   /* Baner */
+ /*.overlay {
+     height: 600px;
+     max-width: 1440px;
+     margin-left: auto;
+     margin-right: auto;
+     background-image:linear-gradient (to right rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7),
+     url(../images/people-office\ 1.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }*/
 
-  .baner{ padding: 188px 0;
-    background-color: var( --text-color-navy);
+  .baner{ 
+    padding: 188px 0;
+    background-color: var(--text-color-navy);
 }
 
     .baner-title { max-width: 496px;
@@ -215,6 +228,9 @@ justify-content:space-between;}
         text-align: center;
     }
 
+
+   
+
     /* Our advantages */
 .section-advantage{padding: 120px 0;}
 
@@ -230,6 +246,32 @@ justify-content:space-between;}
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
+.list-advantage::before{
+    display: block;
+    content: "";
+    height: 112px;
+    background-color: var(--studio-logo-footer);  
+}
+
+.list-advantage:nth-child(1)::before{background-image: url(/images/svg/antena.svg);
+ background-repeat: no-repeat;
+ background-position: center;}
+
+ .list-advantage:nth-child(2)::before {
+     background-image: url(/images/svg/Clock.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .list-advantage:nth-child(3)::before {
+     background-image: url(/images/svg/LapTop.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .list-advantage:nth-child(4)::before {
+     background-image: url(/images/svg/Kosmonavt.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
 
     .list-advantage{
 width: calc((100% - 72px) / 4);
@@ -326,6 +368,35 @@ margin-bottom: 8px;}
 text-align: center;
     letter-spacing: 0.02em;
 color: var(--text-color);}
+
+
+
+.social { 
+background-color:var(--color-brand);
+width: 40px;
+height: 40px;
+border-radius: 50%;}
+
+.social:hover{
+    background-color:var(--icon-hover) ;
+}
+
+.social-icon{display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   width: 100%;
+height: 100%;}
+
+
+
+
+/*Customers*/
+
+
+
+
+
 
 /* footer */
 
