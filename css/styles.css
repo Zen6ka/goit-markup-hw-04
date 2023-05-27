@@ -1,5 +1,5 @@
 /* @ Убирает все отступы */
-/* {
+ {
     margin: 0;
     padding: 0;
     border: 0;
@@ -164,21 +164,17 @@ justify-content:space-between;}
 
            
   /* Baner */
- /*.overlay {
-     height: 600px;
-     max-width: 1440px;
-     margin-left: auto;
-     margin-right: auto;
-     background-image:linear-gradient (to right rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7),
-     url(../images/people-office\ 1.jpg);
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
- }*/
 
   .baner{ 
     padding: 188px 0;
     background-color: var(--text-color-navy);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
     .baner-title { max-width: 496px;
@@ -369,26 +365,36 @@ text-align: center;
     letter-spacing: 0.02em;
 color: var(--text-color);}
 
-.social-list{ 
+.social-list { 
 list-style: none;
 display: flex;
 justify-content: center;
-align-items: center;
+gap: 24px;
 }
 
-.social { 
-background-color:var(--color-brand);
+.social-item { 
 width: 40px;
-height: 40px;
-border-radius: 50%;}
+height: 40px;}
 
-.social:hover{
-    background-color:var(--icon-hover) ;
+
+.social-icon {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: var(--color-brand);
 }
 
-.social-icon {display: flex;}
+.social-icon:hover,
+.social-icon:focus {
+    background-color: var(--text-nav-hover);
+}
 
-
+.social {
+    fill: var(--color-background-light);
+}
 
 
 /*Customers*/
