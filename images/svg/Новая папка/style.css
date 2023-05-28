@@ -15,8 +15,16 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-antena {
+  width: 0.9375em;
+}
+
 .icon-bird {
   width: 1.142578125em;
+}
+
+.icon-Clock {
+  width: 0.96875em;
 }
 
 .icon-company-6 {
@@ -33,6 +41,10 @@ Single-colored icons can be modified like so:
 
 .icon-company5 {
   width: 1.369140625em;
+}
+
+.icon-LapTop {
+  width: 1.2802734375em;
 }
 
 .icon-union {
