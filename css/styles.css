@@ -218,8 +218,6 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     text-align: center;}
 
 
-   
-
     /* Our advantages */
 .section-advantage{padding: 120px 0;}
 
@@ -361,9 +359,7 @@ img{display: block;}
     border-radius: 50%;
     background-color: var(--color-brand);}
 
-.social-icon:hover {
-    background-color: var(--text-nav-hover);}
-
+.social-icon:hover,
 .social-icon:focus {
     background-color: var(--text-nav-hover);}
 
@@ -417,12 +413,9 @@ img{display: block;}
     height: 56px;
 }
 
-.company-icon:hover {
+.company-icon:hover,
+.company-icon:focus {
     color: var(--text-nav-hover);
-    border-color: #404bbf;
-}
-
-.company-icon:focus {color: var(--text-nav-hover);
     border-color: #404bbf;}
 
 
@@ -472,8 +465,6 @@ img{display: block;}
     align-items: baseline;
 }
 
-
-
 .social-media{list-style: none;
     display: flex;
     gap: 16px;}
@@ -487,11 +478,10 @@ img{display: block;}
     border-radius: 50%;
     background-color: var(--color-brand);
 }
-.social-icon-footer:hover { 
+.social-icon-footer:hover,
+.social-icon-footer:focus{ 
     background-color:var(--icon-hover-footer);}
 
-.social-icon-footer:focus {
-    background-color:var(--icon-hover-footer);}
 
     /* Portfolio */
 .portfolio-section{padding: 96px 0 120px;}
