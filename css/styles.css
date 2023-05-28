@@ -426,7 +426,8 @@ img{display: block;}
 
 .company-icon:hover,
 .company-icon:focus {
-    fill: var(--text-nav-hover);
+   color: var(--text-nav-hover);
+   border-color: var(--text-nav-hover);
 }
 
 
